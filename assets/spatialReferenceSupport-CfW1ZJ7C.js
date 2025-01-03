@@ -1,1 +1,0 @@
-import{en as o,ih as S}from"./index-DPJiPkbh.js";function e(i,G){return i!=null&&(G==null||(G===o.Local?!i.isGeographic||i.isWGS84||i.wkid===S.CGCS2000:i.isWebMercator||i.isWGS84||i.wkid===S.CGCS2000||i.wkid===S.GCSMARS2000||i.wkid===S.GCSMARS2000_SPHERE||i.wkid===S.GCSMOON2000))}export{e as r};

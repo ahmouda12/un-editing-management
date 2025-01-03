@@ -1,0 +1,1 @@
+import{bM as l,bH as a}from"./index-B252NKV0.js";function m(n,r=l(n)){return r.mode!=="on-the-ground"&&!(n.geometry==null||!n.geometry.hasZ)}function s(n,r){let e=null;const o=n.events.on("grab-changed",t=>{e!=null&&(e.remove(),e=null),t.action==="start"&&(e=n.disableDisplay())});return a(()=>{e==null||e.remove(),o.remove()})}export{m as n,s as t};

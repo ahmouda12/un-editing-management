@@ -1,1 +1,0 @@
-import{dl as i,bO as s,eH as c}from"./index-DPJiPkbh.js";function f(r,e,n){return!!i(r,e,a,n.spatialReference)&&(n.x=a[0],n.y=a[1],n.z=a[2],!0)}async function o(r,e,n,t){return await c(e,n.spatialReference,null,t),f(r,e,n)}const a=s();export{o as c,f as t};
