@@ -1,0 +1,1 @@
+import{r as f,t as d,u as m,V as v,v as p}from"./index-DPJiPkbh.js";async function V(e,s,r){const a=f(e),t=d(a.query,{query:m({f:"json"}),...r});s.startsWith("{")&&(s=s.slice(1,-1));const i=v(a.path,"versions",s),{data:o}=await p(i,t),{versionName:n,versionGuid:u,...c}=o;return{...c,versionIdentifier:{name:n,guid:u}}}export{V as getVersion};
